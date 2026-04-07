@@ -9,7 +9,7 @@ function pagina(){
     input.placeholder = "Digite uma tarefa";
 
     const botao = document.createElement("button");
-    botao.id = "btnAdicionar";
+    botao.id = "btnAdicionar";5
     botao.textContent = "Adicionar";
 
     const lista = document.createElement("ul");

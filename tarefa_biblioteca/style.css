@@ -24,7 +24,11 @@ body {
 }
 
 h1 {
-    color: #ad6d6d;
+    color: #313131;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 h2{

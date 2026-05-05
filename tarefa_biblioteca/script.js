@@ -5,7 +5,7 @@ function biblioteca(){
         disponivel: true,
         imagem: "https://ocondadostore.com/wp-content/uploads/2020/06/Ladr%C3%A3o-de-Raios.jpg"
     };
-
+            
     const harry = {
         titulo: "Harry Potter e a Pedra Filosofal",
         autor: "J.K. Rowling",
@@ -65,7 +65,7 @@ function biblioteca(){
                     status.textContent = "Status: Emprestado";
                     botaoReservar.disabled = true;
                     livro.disponivel = false;
-                    status.classList.add("livro-emprestado")
+                    ("livro-emprestado")
                     console.log(`Livro de cadastro: "${livro.titulo}" reservado com sucesso!`)
     });
 }
@@ -76,8 +76,8 @@ function biblioteca(){
             card.appendChild(status);
             card.appendChild(botaoReservar);
             resultados.appendChild(card);
-        });
+        });     
     }
 
     exibirLivros(livros);
-}
+}   

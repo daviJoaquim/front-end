@@ -2,7 +2,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     padding: 15px;
-    margin: 10px;
+    margin: 25px;
     border-radius: 8px; 
     display: inline-block;
     width: 13rem;
@@ -45,3 +45,4 @@ h2{
 h3 {
     color: #ac3030;
 }
+

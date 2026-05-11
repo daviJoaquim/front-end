@@ -1,0 +1,18 @@
+#resultadosBusca {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 600px) {
+    #resultadosBusca {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas iguais */
+    }
+}
+
+@media (min-width: 900px) {
+    #resultadosBusca {
+        grid-template-columns: repeat(3, 1fr); /* Três colunas iguais */
+    }
+}
